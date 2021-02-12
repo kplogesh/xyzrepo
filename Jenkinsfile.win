@@ -14,13 +14,13 @@ pipeline {
         }
         stage('Review') {
             steps {
-		bat "${env.ISCCR_HOME}/CodeReview.cmd -Dcode.review.directory=${env.SAG_HOME}/IntegrationServer/instances/default/packages -Dcode.review.pkgname=ALL -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF -Dcode.review.output.directory=C:/Logesh/Jenkins/.jenkins/workspace/FirstPipeline/CodeReviewReport"
+		bat "${env.ISCCR_HOME}/CodeReview.cmd -Dcode.review.directory=${env.SAG_HOME}/IntegrationServer/instances/default/packages -Dcode.review.pkgname=CEFConfigurationProperties -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF -Dcode.review.output.directory=C:/Logesh/Jenkins/.jenkins/workspace/FirstPipeline/CodeReviewReport"
             
 			publishHTML (target : [allowMissing: false,
 			 alwaysLinkToLastBuild: false,
 			 keepAll: true,
-			 reportDir: 'C:/Logesh/Jenkins/.jenkins/workspace/FirstPipeline/',
-			 reportFiles: 'CEFAkamaiUserInfo__CodeReviewReport__html-package.html',
+			 reportDir: 'C:/Logesh/Jenkins/.jenkins/workspace/SystemIntegrationTesting/',
+			 reportFiles: 'CEFConfigurationProperties__CodeReviewReport__html-package.html',
 			 reportName: 'Code Review Reports',
 			 reportTitles: 'Code Review Report'])
 			}
