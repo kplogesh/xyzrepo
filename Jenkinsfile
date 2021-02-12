@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Review') {
             steps {
-		bat "${env.ISCCR_HOME}/CodeReview.cmd -Dcode.review.directory=${env.SAG_HOME}/IntegrationServer/instances/default/packages -Dcode.review.pkgname=CEFAkamaiUserInfo -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF -Dcode.review.output.directory=C:/Logesh/Jenkins/.jenkins/workspace/FirstPipeline/CodeReviewReport"
+		bat "${env.ISCCR_HOME}/CodeReview.cmd -Dcode.review.directory=${env.SAG_HOME}/IntegrationServer/instances/default/packages -Dcode.review.pkgname=ALL -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF -Dcode.review.output.directory=C:/Logesh/Jenkins/.jenkins/workspace/FirstPipeline/CodeReviewReport"
             
 			publishHTML (target : [allowMissing: false,
 			 alwaysLinkToLastBuild: false,
