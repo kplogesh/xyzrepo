@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">AddPropertiesElement</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">SURhdGFDdXJzb3IgcGlwZWxpbmVDdXJzb3I9IHBpcGVsaW5lLmdldEN1cnNvcigpOw0KU3RyaW5n
+IGNvbmZpZ3VyYXRpb249IElEYXRhVXRpbC5nZXRTdHJpbmcocGlwZWxpbmVDdXJzb3IsICJjb25m
+aWd1cmF0aW9uIik7DQpTdHJpbmcgbmFtZT0gSURhdGFVdGlsLmdldFN0cmluZyhwaXBlbGluZUN1
+cnNvciwgIm5hbWUiKTsNClN0cmluZyB2YWx1ZT0gSURhdGFVdGlsLmdldFN0cmluZyhwaXBlbGlu
+ZUN1cnNvciwgInZhbHVlIik7DQoNCklEYXRhVXRpbC5wdXQocGlwZWxpbmVDdXJzb3IsICJtZXNz
+YWdlIiwgbVN1Y2Nlc3NNc2cgKyAiKCIgKyBuYW1lKyAiKSIpOw0KdHJ5IHsNCglQcm9wZXJ0aWVz
+TWFuYWdlci5hZGRQcm9wZXJ0aWVzRWxlbWVudChjb25maWd1cmF0aW9uLCBuYW1lLCB2YWx1ZSk7
+DQp9DQpjYXRjaCAoRXhjZXB0aW9uIGV4Y3ApIHsNCglJRGF0YVV0aWwucHV0KHBpcGVsaW5lQ3Vy
+c29yLCAibWVzc2FnZSIsIG1FcnJvck1zZyArICIoIiArIGV4Y3AuZ2V0TWVzc2FnZSgpICsgIiki
+KTsNCn0NCnBpcGVsaW5lQ3Vyc29yLmRlc3Ryb3koKTsNCnJlc2V0Q2FjaGVkU2VydmljZXMocGlw
+ZWxpbmUpOyANCgk=</value>
+</Values>
