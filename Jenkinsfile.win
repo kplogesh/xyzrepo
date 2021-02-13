@@ -20,7 +20,7 @@ pipeline {
 			 alwaysLinkToLastBuild: false,
 			 keepAll: true,
 			 reportDir: 'C:/Logesh/Jenkins/.jenkins/workspace/SystemIntegrationTesting/',
-			 reportFiles: 'CodeReviewReport__html-package.html',
+			 reportFiles: 'LKDemo__CodeReviewReport__html-package.html',
 			 reportName: 'Code Review Reports',
 			 reportTitles: 'Code Review Report'])
 			}
