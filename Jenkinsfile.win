@@ -1,0 +1,35 @@
+pipeline {
+    agent any 
+
+    stages {
+        stage('Build'){
+            steps {
+                bat "${env.SAG_HOME}/common/lib/ant/bin/ant -DSAGHome=${env.SAG_HOME} -DSAG_CI_SIT_HOME=${env.SAG_CI_SIT_HOME} -DprojectName=${env.JOB_NAME} build"
+            }
+        }
+        stage('Deploy') {
+            steps {
+		bat "${env.SAG_HOME}/common/lib/ant/bin/ant -DSAGHome=${env.SAG_HOME} -DSAG_CI_SIT_HOME=${env.SAG_CI_SIT_HOME} -DprojectName=${env.JOB_NAME} deploy"
+            }
+        }
+        stage('Review') {
+            steps {
+		bat "${env.ISCCR_HOME}/CodeReview.cmd -Dcode.review.directory=${env.SAG_HOME}/IntegrationServer/instances/default/packages -Dcode.review.pkgname=LKDemo -Dcode.review.pkgprefix=LK -Dcode.review.folder-prefix=LK -Dcode.review.output.directory=C:/Logesh/Jenkins/.jenkins/workspace/SystemIntegrationTesting/CodeReviewReport"
+            
+			publishHTML (target : [allowMissing: false,
+			 alwaysLinkToLastBuild: false,
+			 keepAll: true,
+			 reportDir: 'C:/Logesh/Jenkins/.jenkins/workspace/SystemIntegrationTesting/',
+			 reportFiles: 'LKDemo__CodeReviewReport__html-package.html',
+			 reportName: 'Code Review Reports',
+			 reportTitles: 'Code Review Report'])
+			}
+        }
+		stage('Test') {
+            steps {
+		bat "${env.SAG_HOME}/common/lib/ant/bin/ant -DSAGHome=${env.SAG_HOME} -DSAG_CI_SIT_HOME=${env.SAG_CI_SIT_HOME} -DprojectName=${env.JOB_NAME} test"
+		junit 'report/'
+            }
+        }
+    }
+}
