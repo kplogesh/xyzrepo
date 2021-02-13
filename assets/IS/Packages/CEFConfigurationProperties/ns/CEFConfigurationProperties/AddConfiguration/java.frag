@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">AddConfiguration</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">SURhdGFDdXJzb3IgcGlwZWxpbmVDdXJzb3I9IHBpcGVsaW5lLmdldEN1cnNvcigpOw0KU3RyaW5n
+IGNvbmZpZ3VyYXRpb249IElEYXRhVXRpbC5nZXRTdHJpbmcocGlwZWxpbmVDdXJzb3IsICJjb25m
+aWd1cmF0aW9uIik7DQpTdHJpbmcgY29tbWVudD0gSURhdGFVdGlsLmdldFN0cmluZyhwaXBlbGlu
+ZUN1cnNvciwgImNvbW1lbnQiKTsNCg0KDQpJRGF0YVV0aWwucHV0KHBpcGVsaW5lQ3Vyc29yLCAi
+bWVzc2FnZSIsIG1TdWNjZXNzTXNnICsgIigiICsgY29uZmlndXJhdGlvbiArICIpIik7DQp0cnkg
+eyANCglQcm9wZXJ0aWVzTWFuYWdlci5hZGRQcm9wZXJ0aWVzKGNvbmZpZ3VyYXRpb24sIG5ldyBQ
+cm9wZXJ0aWVzKCksIGNvbW1lbnQpOw0KfQ0KY2F0Y2ggKEV4Y2VwdGlvbiBleGNwKSB7DQoJSURh
+dGFVdGlsLnB1dChwaXBlbGluZUN1cnNvciwgIm1lc3NhZ2UiLCBtRXJyb3JNc2cgKyAiKCIgKyBl
+eGNwLmdldE1lc3NhZ2UoKSArICIpIik7DQp9DQpwaXBlbGluZUN1cnNvci5kZXN0cm95KCk7DQpy
+ZXNldENhY2hlZFNlcnZpY2VzKHBpcGVsaW5lKTsNCgk=</value>
+</Values>
