@@ -8,4 +8,8 @@
 <MAP TIMEOUT="" MODE="STANDALONE">
   <COMMENT>first mark</COMMENT>
 </MAP>
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT>second mark</COMMENT>
+</MAP>
 </FLOW>
