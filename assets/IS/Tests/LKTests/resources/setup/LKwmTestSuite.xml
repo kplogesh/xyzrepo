@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="LKDemoTests">
+    <webMethodsTestCase name="AddIntsTest">
+        <service folder="LKDemo.services" name="addInts">
+            <input>
+                <file filename="resources/data/addInts_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/data/addInts_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
